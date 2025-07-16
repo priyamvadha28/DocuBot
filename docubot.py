@@ -102,10 +102,10 @@ if file is not None:
 
         # Initialize embeddings using AzureOpenAIEmbeddings
         embeddings = AzureOpenAIEmbeddings(
-            openai_api_version="2024-02-01",
-            api_key="a3efe3e1fe1f4b6ca6f9d6d1a23f8991",
-            azure_endpoint="https://nextgen-azure-openai.openai.azure.com/",
-            model="nextgen-embedding-model"
+            openai_api_version="",
+            api_key="",
+            azure_endpoint="",
+            model=""
         )
         
         # Create a vector store from the text chunks using FAISS
